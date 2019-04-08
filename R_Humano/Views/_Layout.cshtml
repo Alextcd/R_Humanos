@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Recursos Humanos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="E-Banking Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" media="all" />
+    <link href="~/css/font-awesome.css" rel="stylesheet" />
+    <script src="~/js/jquery-2.2.3.min.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+</head>
+<body>
+    <div class="headerw3-agile">
+        <div class="header-w3mdl">
+            <div class="container">
+                <div class="agileits-logo navbar-left">
+                    <h1>JC</h1>
+                </div>
+                <div class="agileits-hdright nav navbar-nav">
+                    <div class="header-w3top">
+                        <ul class="w3l-nav-top">
+                            <li><i class="fa fa-phone"></i><span> 809-599-2210 </span></li>
+                            <li><a href="mailto:20175067@itla.edu.do"><i class="fa fa-envelope-o"></i><span>20175067@itla.edu.do</span></a></li>
+                        </ul>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="agile_social_banner">
+                        <ul class="agileits_social_list">
+                            <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner inner-banner">
+        <div class="header-nav">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        Menu
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+
+                        <li><a href="http://localhost:52647/Home/Index" class="scroll">Inicio</a></li>
+                        <li><a href="http://localhost:52647/Empleadoes/Create" class="scroll">Empleados</a></li>
+                        <li><a href="http://localhost:52647/Departamentoes/Create" class="scroll">Departamentos</a></li>
+                        <li><a href="http://localhost:52647/Cargoes/Create" class="scroll">Cargos</a></li>
+                        <li>
+                            <a href="" data-toggle="dropdown">Procesos<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://localhost:52647/Nominas/Create">Nomina</a></li>
+                                <li><a href="http://localhost:52647/Salidas/Create">Salida de empleados</a></li>
+                                <li><a href="http://localhost:52647/Vacaciones/Create">Vacaciones</a></li>
+                                <li><a href="http://localhost:52647/Permisoes/Create">Permisos</a></li>
+                                <li><a href="http://localhost:52647/Licencias/Create">Licencias</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" data-toggle="dropdown">Informes<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://localhost:52647/Nominas/Index">Nominas</a></li>
+                                <li><a href="http://localhost:52647/Empleadoes/Index">Empleados activos</a></li>
+                                <li><a href="http://localhost:52647/Empleadoes/Index">Empleados inactivos</a></li>
+                                <li><a href="http://localhost:52647/Departamentoes/Index">Departamentos</a></li>
+                                <li><a href="http://localhost:52647/Cargoes/Index">Cargos</a></li>
+                                <li><a href="http://localhost:52647/Empleadoes/Index">Entradas</a></li>
+                                <li><a href="http://localhost:52647/Empleadoes/Index">Salidas</a></li>
+                                <li><a href="http://localhost:52647/Permisoes/Index">Permisos</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="clearfix"> </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <script src="~/js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 3
+            $("#slider3").responsiveSlides({
+                auto: true,
+                pager: false,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
+            });
+
+        });
+    </script>
+    <script src="~/js/SmoothScroll.min.js"></script>
+    <!-- smooth-scrolling-of-move-up -->
+    <script type="text/javascript" src="~/js/move-top.js"></script>
+    <script type="text/javascript" src="~/js/easing.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+    <!-- //smooth-scrolling-of-move-up -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="~/js/bootstrap.js"></script>
+
+</body>
+</html>
