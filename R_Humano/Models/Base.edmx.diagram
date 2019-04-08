@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="47a59c236b9d4ecdb97fb0adf223bddd" Name="Diagram1">
+        <EntityTypeShape EntityType="R_HumanosModel.Cargo" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="R_HumanosModel.Departamento" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="R_HumanosModel.Empleado" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="R_HumanosModel.Licencia" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="R_HumanosModel.Nomina" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="R_HumanosModel.Permiso" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="R_HumanosModel.Salida" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="R_HumanosModel.Vacacione" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <AssociationConnector Association="R_HumanosModel.fk_cargo" ManuallyRouted="false" />
+        <AssociationConnector Association="R_HumanosModel.fk_departamento" ManuallyRouted="false" />
+        <AssociationConnector Association="R_HumanosModel.fk_Empleado" ManuallyRouted="false" />
+        <AssociationConnector Association="R_HumanosModel.fk_empleado2" ManuallyRouted="false" />
+        <AssociationConnector Association="R_HumanosModel.fk_empleado3" ManuallyRouted="false" />
+        <AssociationConnector Association="R_HumanosModel.fk_empleado4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
